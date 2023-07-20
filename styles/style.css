@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+ *{
+    box-sizing: border-box;
+    /* height: 1800vh; */
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+    background: #FFF;
+    /* padding: 50px; */
+    /* margin-left: 80px; */
+    /* padding-right: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 1920px; */
+/* height: 130px; */
+margin-top: 3%;
+}
+.logo-container{
+    border: 1px saddlebrown rebeccapurple;
+    display: flex;
+    
+    gap: 20px;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* align-content: center; */
+}
+.logo-container p{
+    font-size: 40px;
+    /* text-align: center; */
+    font-weight: 700;
+    border: 1px solid royalblue;
+    width: 300px;
+    
+}
+.nav-iteams{
+    border: 1px solid yellow;
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 15%; */
+    gap: 15px;
+}
+.nav-iteams a{
+    text-decoration: none;
+}
+.game{
+    color:#FF42A5;
+    text-align: center;
+}
+.logo-container img{
+    border: 2px solid rgb(0, 252, 55);
+    width: 90px;
+    object-fit: cover;
+    margin-right: 20px;
+    /* align-items: center; */
+    /* justify-content: baseline; */
+}     
+.play-like-part{
+     /* width: 180px; */
+/* height: 5927px;  */
+display: flex;
+/* max-height: 2px; */
+justify-content: space-between;
+/* margin-top: 200px; */
+/* margin-bottom: 10%; */
+
+}
+.side-1{
+    text-align: justify;
+    padding: 10% ;
+    /* margin-bottom: 30px; */
+
+}
+.side-1 h3{
+    color: #0e0d11;
+    font-size: 40px;
+    padding: 2px;
+    text-align: justify;
+
+}
+.goat{
+    color: #cc0d7f;
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.btn{
+    background-color: #cc0d7f;
+    border-radius: 30px;
+    color: white;
+    /* height: 4p; */
+    /* width: 40%; */
+    padding: 21px 40px;
+    gap: 10px;
+    display: inline-flex;
+}
+.btn-2{
+    border-radius: 30px;
+background: #4EC5F7;
+color: white;
+padding: 21px 40px;
+
+}
