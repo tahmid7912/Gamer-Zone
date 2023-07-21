@@ -10,26 +10,41 @@
         text-align: center;
     } 
    .game{
-    flex-direction: column;
+    flex-direction: flex;
 
    }
    .logo-container {
-    flex-direction: column;
-    padding: 2px;
-    margin: 20px;
+flex-direction: column;   
+border: 1px solid red; 
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    padding: 40px;
+    margin: 30px;
    }
    .logo-container p{
-    flex-direction: column;
-    padding-right: 100px;
-    padding-bottom:50% ;
-    margin-top: 1px;
+    border: 1px solid gold;
+    flex-direction: flex;
+    /* padding-right: 10px; */
+    /* padding-bottom:50% ; */
+    margin-top: auto;
+    margin-left: 100px;
+    margin-bottom: 200%;
+    text-align: center;
    }
       .nav-container{ 
         flex-direction: column;
         gap: 20px;
     } 
     .banner-img{
+        display: block;
+        flex-direction:column;
+        width: 90%;}
+      
+    
+    .play-like-part{
         flex-direction: column;
-        width: 100%;
     }
+
+    
 }

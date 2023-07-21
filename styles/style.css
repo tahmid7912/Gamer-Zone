@@ -11,19 +11,11 @@ body{
 }
 .nav-container{
     border: 1px solid red;
-    /* min-height: 50px; */
     background: #FFF;
-    /* padding: 50px; */
-    /* margin-left: 80%; */
-    /* padding-right: 50%; */
+   
     display: flex;
-    /* align-items: center; */
-    /* width: 342px; */
-/* height: 130px; */
-/* margin-top: 4%; */
-/* text-align: justify; */
-/* justify-content: space-evenly; */
 }
+
 .logo-container{
     border: 1px saddlebrown rebeccapurple;
     display: flex;
@@ -152,13 +144,10 @@ margin: 1px auto 10;
 }
 .banner-img{
     width: 80%;
+    border: 1px solid lawngreen;
+    /* margin: auto; */
 }
-/* .grid-container{
-    display: grid;
-    max-width: 1000px;
-    margin: 10px auto 0;
-    min-height: 400px;
-} */
+
 .rectangle{
     width: 80%;
     height: 75%;
