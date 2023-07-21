@@ -35,7 +35,7 @@ body{
     
 }
 .nav-iteams{
-    border: 1px solid yellow;
+    border: 1px solid rgb(255, 0, 149);
     display: flex;
     /* justify-content: space-between; */
     width:40%;
@@ -55,7 +55,7 @@ body{
  
 }
 .game{
-    color:#FF42A5;
+    color:#fc33b9;
     text-align: center;
 }
 .logo-container img{
@@ -144,7 +144,7 @@ margin: 1px auto 10;
 }
 .banner-img{
     width: 80%;
-    border: 1px solid lawngreen;
+    border: 1px solid rgb(0, 26, 255);
     /* margin: auto; */
 }
 

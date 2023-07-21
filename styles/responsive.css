@@ -9,10 +9,6 @@
         margin-left: 20px;
         text-align: center;
     } 
-   .game{
-    flex-direction: flex;
-
-   }
    .logo-container {
 flex-direction: column;   
 border: 1px solid red; 
@@ -23,28 +19,47 @@ border: 1px solid red;
     margin: 30px;
    }
    .logo-container p{
-    border: 1px solid gold;
-    flex-direction: flex;
-    /* padding-right: 10px; */
-    /* padding-bottom:50% ; */
-    margin-top: auto;
-    margin-left: 100px;
-    margin-bottom: 200%;
-    text-align: center;
+    /* display: flexbox; */
+    /* display: contents; */
+    border: 1px solid rgb(204, 177, 22);
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
    }
       .nav-container{ 
+        border: 1px solid black;
         flex-direction: column;
         gap: 20px;
+        /* display: flex; */
+        width: 180%;
+        margin: auto;
+        /* text-align: justify; */
     } 
     .banner-img{
         display: block;
         flex-direction:column;
-        width: 90%;}
+        width: 100%;
+        margin: auto;
+    }
       
     
     .play-like-part{
         flex-direction: column;
     }
-
-    
+    .grid-container{
+        flex-direction: column;
+    }
+    .card1{
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    .game{
+        /* display: flex; */
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .no-download{
+        flex-direction: column;
+    }
 }
