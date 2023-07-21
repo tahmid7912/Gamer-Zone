@@ -11,18 +11,18 @@ body{
 }
 .nav-container{
     border: 1px solid red;
-    min-height: 50px;
+    /* min-height: 50px; */
     background: #FFF;
-    padding: 50px;
+    /* padding: 50px; */
     /* margin-left: 80%; */
     /* padding-right: 50%; */
     display: flex;
-    /* justify-content:start; */
     /* align-items: center; */
-    width: 342px;
-height: 130px;
-margin-top: 3%;
-/* text-align: right; */
+    /* width: 342px; */
+/* height: 130px; */
+margin-top: 4%;
+/* text-align: justify; */
+/* justify-content: space-evenly; */
 }
 .logo-container{
     border: 1px saddlebrown rebeccapurple;
@@ -39,17 +39,22 @@ margin-top: 3%;
     /* text-align: center; */
     font-weight: 700;
     border: 1px solid royalblue;
-    width: 300px;
+    width: 6%;
     
 }
 .nav-iteams{
     border: 1px solid yellow;
-    /* display: flex; */
+    display: flex;
     /* justify-content: space-between; */
-    width:10%;
-    gap: 50px;
+    width:40%;
+    /* height: 40%; */
+    /* gap: 5px; */
     /* justify-items: end; */
-    justify-content: right;
+    /* justify-content: right; */
+    /* min-height: 50%; */
+    align-items: center;
+    justify-content: space-between;
+    /* align-items: self-end; */
 }
 .nav-iteams a{
     text-decoration: none;
