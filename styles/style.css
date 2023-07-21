@@ -76,10 +76,7 @@ margin-top: 4%;
     
 }     
 .play-like-part{
-     /* width: 180px; */
-/* height: 5927px;  */
 display: flex;
-/* max-height: 2px; */
 justify-content: space-between;
 /* margin-top: 200px; */
 /* margin-bottom: 10%; */
@@ -142,10 +139,11 @@ line-height: 30px ;
 }
 .card1{
     display: flex;
-
 justify-content:center;
-
 border-radius: 16px;
+ /* max-height: 50%; */
+/* max-width: 100%; */
+margin: 1px auto 10;
 
 }
 .card1 p{
@@ -166,6 +164,27 @@ border-radius: 16px;
     height: 75%;
     align-items: center;
 }
-@media  screen and  {
+    
+.no-download{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+.images{
+    /* display: flex; */
+    /* height: 600%; */
+    width: 70%;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.back{
+    width: 40%;
+    margin-top: auto;
+    border-radius: 30px;
+    /* border: 10px; */
+    display: grid;
+
+   
     
 }
