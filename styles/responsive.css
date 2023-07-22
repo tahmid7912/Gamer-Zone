@@ -62,4 +62,18 @@ border: 1px solid red;
     .no-download{
         flex-direction: column;
     }
+    .advertise{
+        flex-direction: column;
+        display: grid;
+    }
+    .story{
+        flex-direction: column;
+    }
+    .terms{
+        display: flex;
+    }
+    .finish{
+        display: grid;
+        flex-direction: column;
+    }
 }

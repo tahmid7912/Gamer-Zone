@@ -211,3 +211,21 @@ color:white;
     text-align: center;
     justify-content: center;
 }
+.fa-twitter{
+    color: rgb(231, 231, 231);
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
+.fa-facebook{
+    color: #fcfcfcd8 rgba(24, 119, 242, 1);
+}
+.logo{
+    /* width: 40px; */
+/* height: 40px; */
+/* flex-shrink: 0; */
+    margin: auto;
+    justify-content: center;
+    /* display: flex; */
+    /* display: grid; */
+}
