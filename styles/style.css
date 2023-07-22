@@ -177,6 +177,37 @@ margin: 1px auto 10;
     /* align-items: center; */
     /* height: 18vh; */
     /* width: 180vh; */
-    margin: 10px;
-    padding: 10px 20px;
+    margin-top: 50px;
+    /* padding: 10px 20px; */
+}
+.footer{
+    border: 1px solid rgb(59, 51, 2);
+display: flex;
+
+display: grid;
+justify-items: center;
+color:white;
+
+}
+#last-part{ padding: 200px 200px ;
+
+    background: #0B0223;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    justify-items: center;
+
+}
+.story{         
+    display: flex;
+    /* text-decoration: none; */
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+.terms{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
 }
