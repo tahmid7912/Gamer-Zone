@@ -10,14 +10,12 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .nav-container{
-    border: 1px solid red;
     background: #FFF;
    
     display: flex;
 }
 
 .logo-container{
-    border: 1px saddlebrown rebeccapurple;
     display: flex;
     gap: 2px;
     width: 50%;
@@ -35,7 +33,6 @@ body{
     
 }
 .nav-iteams{
-    border: 1px solid rgb(255, 0, 149);
     display: flex;
     /* justify-content: space-between; */
     width:40%;
@@ -59,7 +56,6 @@ body{
     text-align: center;
 }
 .logo-container img{
-    border: 2px solid rgb(0, 252, 55);
     width: 90px;
     object-fit: cover;
     margin-right: 20px;
@@ -141,7 +137,6 @@ margin: 1px auto 10;
 
 .banner-img{
     width: 80%;
-    border: 1px solid rgb(0, 26, 255);
     /* margin: auto; */
 }
 
@@ -179,9 +174,10 @@ margin: 1px auto 10;
     /* width: 180vh; */
     margin-top: 50px;
     /* padding: 10px 20px; */
+    margin-bottom: 40px;
 }
 .footer{
-    border: 1px solid rgb(59, 51, 2);
+
 display: flex;
 
 display: grid;
