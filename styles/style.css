@@ -138,10 +138,7 @@ border-radius: 16px;
 margin: 1px auto 10;
 
 }
-.card1 p{
-/* text-align: center; */
-/* align-items: flex-end; */
-}
+
 .banner-img{
     width: 80%;
     border: 1px solid rgb(0, 26, 255);
@@ -173,8 +170,13 @@ margin: 1px auto 10;
     border-radius: 30px;
     /* border: 10px; */
     display: grid;
-    
-
-   
-    
+}
+.advertise{
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center; */
+    /* height: 18vh; */
+    /* width: 180vh; */
+    margin: 10px;
+    padding: 10px 20px;
 }
